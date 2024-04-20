@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 
-//in useState when we ever the func call the setNewTodo or setTodo then the whole component will be re-rendered AND note re-render only works within the function component,     hooks can only be used at the top level of functional component
+//in useState when ever the func call the setNewTodo or setTodo then the whole component will be re-rendered AND note re-render only works within the function component,     hooks can only be used at the top level of functional component
 
 export default function TodoList() {
   let [newTodo, setNewTodo] = useState(""); //input event target - input box typed
